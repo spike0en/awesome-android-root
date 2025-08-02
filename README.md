@@ -96,6 +96,7 @@ Community-curated Ultimate collection of best root apps, **Magisk**, **KernelSU*
 - [Location and GPS](#location-and-gps)
 - [Network Tools](#network-tools)
 - [NFC Tools](#nfc-tools)
+- [Debrid Services](#debrid-services)
 
 #### 🛡️ Security and Privacy
 - [Privacy and Security](#privacy-and-security)
@@ -629,6 +630,191 @@ If you've just rooted your device, start with these must-have applications. They
 
 ---
 
+### Debrid Services
+
+Premium download services that provide high-speed access to file hosters, useful for Android download managers and media streaming apps.
+
+#### Service Comparison & Speed Tests
+
+| Service | Price/Month | Speed Test Tool | Free Trial | 
+| :--- | :--- | :--- | :--- |
+| **[Real-Debrid](https://real-debrid.com/)** | €3.00 | [Speed Test](https://real-debrid.com/speedtest) | 7 days |
+| **[AllDebrid](https://alldebrid.com/)** | €3.00 | [Speed Test](https://alldebrid.com/speedtest) | 7 days |
+| **[Premiumize](https://premiumize.me/)** | €7.99 | [Speed Test](https://premiumize.me/speedtest) | 7 days |
+| **[DebridLink](https://debrid-link.com/)** | €2.95 | [Speed Test](https://debrid-link.com/speedtest) | 3 days |
+
+#### Speed Testing Integration
+
+**Android Apps with Built-in Speed Testing:**
+- **[ADM Pro](https://play.google.com/store/apps/details?id=com.dv.adm.pay)** - Advanced Download Manager with debrid integration and speed monitoring
+- **[1DM](https://play.google.com/store/apps/details?id=idm.internet.download.manager)** - Download manager with real-time speed tracking for debrid services
+- **[Kodi](https://kodi.tv/)** - Media center with debrid add-ons that include speed test features
+
+**Manual Speed Testing:**
+- **Web-based Speed Tests** - Each service provides official speed test tools (see table above)
+- **API Speed Testing** - Use `curl` commands in Termux to test API response times
+- **Comparative Testing** - Test same file from multiple hosters to compare actual speeds
+
+#### Refund Policies
+
+| Service | Refund Policy | Refund Window | Conditions |
+| :--- | :--- | :--- | :--- |
+| **Real-Debrid** | 14-day refund | 14 days | Unused account only, technical issues |
+| **AllDebrid** | 7-day refund | 7 days | Account issues, service problems |
+| **Premiumize** | 30-day guarantee | 30 days | Satisfaction guarantee, unused credits |
+| **DebridLink** | No refund* | N/A | Credit system, no cash refunds |
+
+*Some services offer credit/point systems instead of direct refunds.
+
+#### Security & Privacy Analysis
+
+##### Real-Debrid
+- **🔒 Security:** TLS encryption, secure payment processing
+- **🕵️ Privacy:** Logs kept for 7 days, minimal user data collection
+- **📍 Location:** France (EU privacy laws)
+- **⚠️ Concerns:** Logs download history temporarily
+
+##### AllDebrid  
+- **🔒 Security:** SSL encryption, 2FA available
+- **🕵️ Privacy:** 30-day log retention, GDPR compliant
+- **📍 Location:** France (EU privacy laws)
+- **⚠️ Concerns:** Longer log retention than competitors
+
+##### Premiumize
+- **🔒 Security:** End-to-end encryption, advanced security features
+- **🕵️ Privacy:** No logs policy, anonymous payments accepted
+- **📍 Location:** Switzerland (strong privacy laws)
+- **✅ Advantages:** Best privacy practices, VPN included
+
+##### DebridLink
+- **🔒 Security:** Standard SSL, secure API
+- **🕵️ Privacy:** Limited logging, European servers
+- **📍 Location:** France (EU privacy laws)
+- **⚠️ Concerns:** Less transparent about data practices
+
+#### Android Integration Apps
+
+**Root-Enhanced Download Managers:**
+- **[LibreTorrent](https://f-droid.org/en/packages/org.proninyaroslav.libretorrent/)** - Open-source torrent client with debrid support via plugins `FOSS`
+- **[Flud](https://play.google.com/store/apps/details?id=com.delphicoder.flud)** - Popular torrent client that works well with debrid services `Proprietary`
+
+**Media Streaming Apps:**
+- **[Kodi](https://kodi.tv/)** - Media center with extensive debrid add-on ecosystem `FOSS`
+- **[VLC](https://f-droid.org/en/packages/org.videolan.vlc/)** - Media player that can stream from debrid links `FOSS`
+
+**Automation Tools:**
+- **[Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm)** - Automate debrid downloads with API integration `Proprietary`
+
+#### FAQ: Common Debrid Service Questions
+
+<details>
+<summary><strong>🤔 What are debrid services and why use them?</strong></summary>
+
+Debrid services act as intermediaries between you and file hosting sites, providing:
+- **High-speed downloads** from premium file hosters
+- **No waiting times** or captcha requirements  
+- **Multiple server locations** for optimal speed
+- **API access** for integration with download managers
+
+</details>
+
+<details>
+<summary><strong>📱 Which debrid service works best on Android?</strong></summary>
+
+**For general use:** Real-Debrid offers the best balance of price, speed, and Android app compatibility.
+
+**For privacy-conscious users:** Premiumize provides better privacy features and includes VPN service.
+
+**For budget users:** DebridLink offers the lowest prices but with fewer features.
+
+</details>
+
+<details>
+<summary><strong>⚡ How can I maximize download speeds?</strong></summary>
+
+1. **Use wired connection** when possible for testing
+2. **Choose nearest server** location in service settings
+3. **Test multiple hosters** for the same file
+4. **Use root-enabled download managers** for better system integration
+5. **Monitor network usage** to avoid throttling
+
+</details>
+
+<details>
+<summary><strong>🔒 Are debrid services safe and legal?</strong></summary>
+
+**Safety:** Reputable services use encryption and secure payment methods. Always verify SSL certificates.
+
+**Legality:** Debrid services themselves are legal. However, the content you download must comply with your local laws and copyright regulations.
+
+**Privacy:** European-based services generally offer better privacy protection due to GDPR regulations.
+
+</details>
+
+<details>
+<summary><strong>💰 How do pricing and payment methods work?</strong></summary>
+
+**Typical pricing:** €3-8/month for premium services
+**Payment methods:** Credit cards, PayPal, cryptocurrency (varies by service)
+**Free trials:** Most services offer 3-7 day trials
+**Credit systems:** Some services use points/credits instead of time-based subscriptions
+
+</details>
+
+<details>
+<summary><strong>🚀 Can I use debrid services with VPN?</strong></summary>
+
+**Generally yes,** but check service terms:
+- **Real-Debrid:** Allows VPN usage
+- **AllDebrid:** VPN friendly
+- **Premiumize:** Includes VPN service
+- **DebridLink:** Check current policy
+
+Some services may limit simultaneous connections or require account verification when using VPN.
+
+</details>
+
+<details>
+<summary><strong>🔧 How do I integrate debrid services with root apps?</strong></summary>
+
+**Download Managers:**
+1. Install supported download manager (ADM Pro, 1DM)
+2. Add debrid API keys in settings
+3. Configure automatic link conversion
+
+**Media Centers:**
+1. Install Kodi with debrid add-ons
+2. Configure Real-Debrid/AllDebrid credentials
+3. Enable automatic streaming from debrid links
+
+**Automation:**
+1. Use Tasker to monitor clipboard for supported links
+2. Automatically convert to debrid links
+3. Start downloads via API calls
+
+</details>
+
+#### Performance Optimization Tips
+
+**For Root Users:**
+- **[DNS66](https://f-droid.org/en/packages/org.jak_linux.dns66/)** - Block ads on debrid service websites `FOSS`
+- **[AFWall+](https://f-droid.org/packages/dev.ukanth.ufirewall/)** - Control which apps can access debrid services `FOSS`
+- **Custom Kernels** - Use kernels with optimized TCP settings for better download performance
+
+**Network Optimization:**
+- Enable **TCP optimization** in kernel settings
+- Use **IPv6** when available for potentially better routing
+- Configure **DNS** to use fast, reliable servers (1.1.1.1, 8.8.8.8)
+
+**Storage Considerations:**
+- Use **high-speed storage** (UFS 3.0+) for optimal write speeds
+- Enable **TRIM** support for SSD-like storage
+- Consider **external storage** for large downloads to preserve internal space
+
+[↑ Back to top](#table-of-contents)
+
+---
+
 ### Performance Tweaks
 
 #### Performance and Gaming
@@ -878,8 +1064,8 @@ For comprehensive contribution instructions, including formatting standards and 
 
 <div class="img-cnt">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-329-blue?style=for-the-badge&logo=android)
-![Root Apps](https://img.shields.io/badge/Root%20Apps-122-blue?style=for-the-badge&logo=android)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-339-blue?style=for-the-badge&logo=android)
+![Root Apps](https://img.shields.io/badge/Root%20Apps-132-blue?style=for-the-badge&logo=android)
 ![Magisk Modules](https://img.shields.io/badge/Magisk%20Modules-113-orange?style=for-the-badge&logo=magisk&logoColor=white)
 ![KernelSU Modules](https://img.shields.io/badge/KernelSU%20Modules-18-green?style=for-the-badge&logo=keenetic&logoColor=white)
 ![LSPosed Modules](https://img.shields.io/badge/LSPosed%20Modules-92-purple?style=for-the-badge&logo=local&logoColor=white)
